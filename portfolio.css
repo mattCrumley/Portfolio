@@ -1,5 +1,3 @@
-
-
 body{
 	/* background is using uigradiets.com */
   background: #FFA17F;  /* fallback for old browsers */
@@ -9,114 +7,8 @@ body{
 	padding:0;
 }
 
-.container-fluid{
-	/* I had an issue where my divs were not taking up the entire width of the page.
-		 bootstrap containers have padding by default.
-		 removing padding allowed page content to fill the entire width of the browser window. 
-	*/
-	margin:0;
-	padding-left:0;
-	padding-right:0;
-
-}
-
-.coverPic{
-	/* I wanted to achieve an effect where the cover picture is split 
-		 with the skyline on the top and reflected buildings on the water below my name banner
-		 to do this, i created two seperate images: one above the banner and one below
-		 I then used vh (viewport height) for height so that the cover takes the entire height of the window
-	*/
-	height:38vh; /* = 1% of viewport height.*/
-	width:100%;
-}
-
-html {
-	/* when an anchor tag link is clicked, the page scrolls down smoothly to the selected content */
-  scroll-behavior: smooth;
-}
-
-i{
-	font-size:x-large;
-}
-
-#topBanner{
-	background: #E9ECEF;	
-}
-
-
-#middleBanner{
- 	margin-bottom: 0;
-	text-align: center;
-}
-
-
-#aboutMe{
-	opacity:0;
-	text-align: center;
-	min-height:50vh;
-	margin-top: 50vh;
-	margin-bottom: 50vh;
-	
-}
-
-/*alternatively:
-#aboutMe{
-	opacity:0;
-	margin-top: 20%;
-	margin-bottom: 20%
-	height:100vh;
-}
-
-
-*/
-
-#aboutMe:hover{
-	opacity:1;
-	background: #E9ECEF;
-}
-
-#projects{
-	opacity:0;
-	text-align: center;
-	min-height:50vh;
-	margin-top: 50vh;
-	margin-bottom: 50vh;
-}
-
-#projects:hover{
-	opacity:1;
-	background: #E9ECEF;
-}
-
-#contactMe{
-	background: #E9ECEF;
-	bottom:0;
-	text-align: center;
-	width:100%;
-}
-
-#portrait{
-	border-radius: 50%;
-	text-align: center;
-}
-
-#coverPic{
-	width: 100%;
-}
-
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-  display:inline-block;
-  float:none;
-  /* reset the text-align */
-  text-align:left;
-  /* inline-block space fix */
-  margin-right:-4px;
-  text-align: center;
-  background-color: #ccc;
-  border: 1px solid #ddd;
+a{
+	font-size:large;
 }
 
 h1{
@@ -134,10 +26,86 @@ h3{
 	font-family: "Courier New";
 }
 
-a{
-	font-size:large;
+html {
+	/* when an anchor tag link is clicked, the page scrolls down smoothly to the selected content */
+  scroll-behavior: smooth;
+}
+
+i{
+	font-size:x-large;
 }
 
 p{
 	text-align: center;
 }
+
+
+.container-fluid{
+	/* I had an issue where my divs were not taking up the entire width of the page.
+		 bootstrap containers have padding by default.
+		 removing padding allowed page content to fill the entire width of the browser window. 
+	*/ 
+	
+	padding-left:0;
+	padding-right:0;
+
+}
+
+.coverPic{
+	/* I wanted to achieve an effect where the cover picture is split 
+		 with the skyline on the top and reflected buildings on the water below my name banner
+		 to do this, i created two seperate images: one above the banner and one below
+		 I then used vh (viewport height) for height so that the cover takes the entire height of the window
+	*/
+	height:38vh; /* = 1% of viewport height.*/
+	width:100%;
+}
+
+#aboutMe{
+	opacity:0;
+	text-align: center;
+	min-height:50vh;
+	margin-top: 50vh;
+	margin-bottom: 50vh;
+}
+
+#aboutMe:hover{
+	opacity:1;
+	background: #E9ECEF;
+}
+
+#contactMe{
+	background: #E9ECEF;
+	bottom:0;
+	text-align: center;
+	width:100%;
+}
+
+#middleBanner{
+ 	margin-bottom: 0;
+	text-align: center;
+}
+
+
+#portrait{
+	border-radius: 50%;
+	text-align: center;
+}
+
+#projects{
+	opacity:0;
+	text-align: center;
+	min-height:50vh;
+	margin-top: 50vh;
+	margin-bottom: 50vh;
+}
+
+#projects:hover{
+	opacity:1;
+	background: #E9ECEF;
+}
+
+#topBanner{
+	background: #E9ECEF;	
+}
+
