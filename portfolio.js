@@ -4,6 +4,11 @@ var projects = document.querySelector("#projects");
 var projectsButton = document.querySelectorAll(".projectsButton");
 var contactMeButton = document.querySelectorAll(".contactMeButton");
 
+/* event listeners add an effect where the opacity of the 
+	 about me and projects sections are 1 only when the user
+	 moves the cursor over them.
+*/
+
 aboutMe.addEventListener("mouseover",function(){
 	aboutMe.style.opacity = 1;
 });
