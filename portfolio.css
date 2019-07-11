@@ -2,20 +2,16 @@
 
 body{
 	/*background is using uigradiets.com*/
-	background: #FFA17F;  /* fallback for old browsers */
+  background: #FFA17F;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
 	margin:0;
 	padding:0;
-	
 }
 
 .container-fluid{
 	padding-right:0;
-    padding-left:0;
+  padding-left:0;
 	margin:0;
 
 }
@@ -34,17 +30,12 @@ i{
 }
 
 #topBanner{
-	
-	
-	background: #E9ECEF;
-	
-		
+	background: #E9ECEF;	
 }
 
 
 #middleBanner{
-	margin-bottom: 0;
-
+ 	margin-bottom: 0;
 	text-align: center;
 }
 
@@ -72,8 +63,6 @@ i{
 #aboutMe:hover{
 	opacity:1;
 	background: #E9ECEF;
-
-
 }
 
 #projects{
@@ -90,21 +79,11 @@ i{
 }
 
 #contactMe{
-	
-	
-	
 	background: #E9ECEF;
 	bottom:0;
-	
 	text-align: center;
-	
-	
 	width:100%;
-
-
 }
-
-
 
 #portrait{
 	border-radius: 50%;
@@ -119,15 +98,15 @@ i{
     text-align:center;
 }
 .col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-    text-align: center;
-    background-color: #ccc;
-    border: 1px solid #ddd;
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+  text-align: center;
+  background-color: #ccc;
+  border: 1px solid #ddd;
 }
 
 h1{
@@ -147,7 +126,6 @@ h3{
 
 a{
 	font-size:large;
-
 }
 
 p{
