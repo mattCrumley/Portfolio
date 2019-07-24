@@ -109,17 +109,13 @@ p{
 }
 
 #aboutMe{
-	opacity:0;
+	background: #E9ECEF;
 	text-align: center;
 	min-height:50vh;
 	margin-top: 50vh;
 	margin-bottom: 50vh;
 }
 
-#aboutMe:hover{
-	opacity:1;
-	background: #E9ECEF;
-}
 
 #contactMe{
 	background: #E9ECEF;
@@ -141,17 +137,14 @@ p{
 }
 
 #projects{
-	opacity:0;
+	background: #E9ECEF;
 	text-align: center;
 	min-height:50vh;
 	margin-top: 50vh;
 	margin-bottom: 50vh;
 }
 
-#projects:hover{
-	opacity:1;
-	background: #E9ECEF;
-}
+
 
 #topBanner{
 	background: #E9ECEF;	
