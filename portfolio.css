@@ -153,16 +153,19 @@ ul{
 #projectImage{
 	background-image: url("https://mattcrumley.github.io/RecipeApp2.jpg");
 	background-size:cover;
+	min-height: 100%;
 }
 
 #projectImage2{
 	background-image: url("https://mattcrumley.github.io/BlogApp.jpg");
 	background-size:cover;
+	min-height: 100%;
 }
 
 #projectImage3{
 	background-image: url("https://mattcrumley.github.io/colorGameApp.jpg");
 	background-size:cover;
+	min-height: 100%;
 }
 
 #topBanner{
