@@ -40,6 +40,10 @@ p{
 	font-size: 1.2em;
 }
 
+ul{
+	list-style: none;
+}
+
 
 .container-fluid{
 	/* I had an issue where my divs were not taking up the entire width of the page.
@@ -109,10 +113,11 @@ p{
   transform: rotateY(180deg);
 }
 
+
 #aboutMe{
 	background: #E9ECEF;
 	text-align: center;
-	min-height:50vh;
+	min-height:75vh;
 	margin-top: 50vh;
 	margin-bottom: 50vh;
 }
@@ -140,12 +145,25 @@ p{
 #projects{
 	background: #E9ECEF;
 	text-align: center;
-	min-height:50vh;
+	min-height:75vh;
 	margin-top: 50vh;
 	margin-bottom: 50vh;
 }
 
+#projectImage{
+	background-image: url("RecipeApp2.jpg");
+	background-size:cover;
+}
 
+#projectImage2{
+	background-image: url("BlogApp.jpg");
+	background-size:cover;
+}
+
+#projectImage3{
+	background-image: url("colorGameApp.jpg");
+	background-size:cover;
+}
 
 #topBanner{
 	background: #E9ECEF;	

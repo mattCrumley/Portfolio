@@ -29,6 +29,7 @@
 		      <li class="nav-item">
 		        <a class="nav-link contactMeButton" href="#contactMe">Contact Me</a>
 		      </li> 
+		      
 		    </ul>
 		  </div>
 	  </nav>
@@ -37,20 +38,21 @@
 
 	  <div id="middleBanner" class="jumbotron">
 	    <h1>Matthew Crumley</h1> 
-	    <h3>Aspiring Web Developer</h3>
+	   
 	   	<!-- fontawesome icon -->
 	    <i class="fas fa-code"></i>
 	    <!-- bootstrap ul-->
 	    <ul class="nav justify-content-center">
 		  <li class="nav-item">
-		    <a class="nav-link active aboutMeButton" href="#aboutMe">About Me</a>
+		    <a class="nav-link" href="#aboutMe">About Me</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link projectsButton" href="#projects">Projects</a>
+		    <a class="nav-link" href="#projects">Projects</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link contactMeButton" href="#contactMe">Contact Me</a>
+		    <a class="nav-link" href="#contactMe">Contact Me</a>
 		  </li>
+		 
 			</ul>	
 	  </div>
 
@@ -60,7 +62,7 @@
 	  <div id="aboutMe" class="jumbotron">
 	  	<h1>About Me</h1>
 	  	<p>I'm a native of Austin, Texas and a recent graduate of Texas State University with a Bachelors in Computer Science. I try to evolve and learn new things everyday. </p>
-	  	<img id="portrait" src="portrait.png">
+	  	<!--<img id="portrait" src="portrait.png"> -->
 
 	  	<div class="container">
 	  		<!-- bootstrap grid -->
@@ -110,13 +112,50 @@
 	  		<!-- bootstrap grid -->
 		    <div class="row">
 			    <div class="col-md">
-			      Placeholder
+			      <div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div id="projectImage"class="flip-card-front">
+
+						    </div>
+						    <div class="flip-card-back">
+						      <h3>Recipe Web App</h3> 
+						      <p>Users are able to save their favorite recipes from accross the web and presents them in a user-friendly, Pintrest like layout. Uses HTML/CSS, Bootstrap, the Express web frame work for Node.js, RESTful routing, and Mongoose (a MongoDB object modeling tool) for data persistence.</p> 
+									<a class="btn btn-default" href="https://github.com/mattCrumley/RecipeApp"><i class="fab fa-github-square"></i>GitHub Link</a>
+						    </div>
+						  </div>
+						</div>
 			    </div>
 			    <div class="col-md">
-			      Placeholder
+			      <div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div id = "projectImage2" class="flip-card-front">
+						      
+						      
+						    </div>
+						    <div class="flip-card-back">
+						      <h3>Blog</h3> 
+						      <p>A simple blog that allows users to create, edit, and delete posts. Uses HTML/CSS, Bootstrap, the Express web frame work for Node.js, RESTful routing, and Mongoose for data persistence</p> 
+						      
+						      <a class="btn btn-default" href="https://github.com/mattCrumley/blog"><i class="fab fa-github-square"></i>GitHub Link</a>
+						    </div>
+						  </div>
+						</div>
 			    </div>
 			    <div class="col-md">
-			      Placeholder
+			      <div class="flip-card">
+						  <div class="flip-card-inner">
+						    <div id = "projectImage3" class="flip-card-front">
+						      
+						      
+						    </div>
+						    <div class="flip-card-back">
+						      <h3>Color Guessing Game</h3> 
+						      <p>A game in which the player tries to guess the color based on the RGB color code. Has an easy mode where there are three possible colors to choose from and hard where there are six possible colors to choose from. Uses HTML/CSS and Javascript. </p> 
+						      <a class="btn btn-default" href="https://github.com/mattCrumley/colorGame"><i class="fab fa-github-square"></i>GitHub Link</a>
+								
+						    </div>
+						  </div>
+						</div>
 			    </div>
 		    </div>
 	  	</div>
@@ -124,8 +163,11 @@
 
 	  <footer id="contactMe">
 	  	<h1>Contact Me</h1>
+	  	<a class="text-center" href="MatthewCrumleyResume.pdf" download>Resume</a> 
 	  	<p class="text-center">mcrumley86@gmail.com</p>
-	  	<a href="MatthewCrumleyResume.pdf" download>Resume</a>
+	  	
+
+
 	   	<div class="btnList text-center">
 	   			<!-- fontawesome buttons -->
 	        <a class="btn btn-default" href="https://github.com/mattCrumley"><i class="fab fa-github-square"></i>GitHub</a>
