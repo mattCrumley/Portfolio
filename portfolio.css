@@ -151,17 +151,17 @@ ul{
 }
 
 #projectImage{
-	background-image: url("RecipeApp2.jpg");
+	background-image: url(RecipeApp2.jpg);
 	background-size:cover;
 }
 
 #projectImage2{
-	background-image: url("BlogApp.jpg");
+	background-image: url(BlogApp.jpg);
 	background-size:cover;
 }
 
 #projectImage3{
-	background-image: url("colorGameApp.jpg");
+	background-image: url(colorGameApp.jpg);
 	background-size:cover;
 }
 
